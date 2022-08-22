@@ -1,0 +1,4 @@
+com/sortname/sorteio/BuildConfig.java
+ com.sortname.sorteio.BuildConfig
+com/sortname/sorteio/MainActivity.java
+ com.sortname.sorteio.MainActivity
