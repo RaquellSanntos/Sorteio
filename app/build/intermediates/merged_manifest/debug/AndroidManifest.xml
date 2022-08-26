@@ -18,8 +18,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Sorteio" >
+        <activity android:name="com.sortname.sorteio.activity.ListaAlunosActivity" />
         <activity
-            android:name="com.sortname.sorteio.MainActivity"
+            android:name="com.sortname.sorteio.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +28,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -39,6 +45,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

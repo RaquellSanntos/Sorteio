@@ -1,4 +1,24 @@
+com/sortname/sorteio/db/PrimaryUtil.java
+ com.sortname.sorteio.db.PrimaryUtil
+com/sortname/sorteio/db/PrimaryListDAO.java
+ com.sortname.sorteio.db.PrimaryListDAO
+com/sortname/sorteio/databinding/PopupAlunoBinding.java
+ com.sortname.sorteio.databinding.PopupAlunoBinding
+com/sortname/sorteio/db/SecundaryUtil.java
+ com.sortname.sorteio.db.SecundaryUtil
+com/sortname/sorteio/activity/ListaAlunosActivity.java
+ com.sortname.sorteio.activity.ListaAlunosActivity
+com/sortname/sorteio/db/AppPrimaryDB.java
+ com.sortname.sorteio.db.AppPrimaryDB
+com/sortname/sorteio/activity/MainActivity.java
+ com.sortname.sorteio.activity.MainActivity
+com/sortname/sorteio/databinding/ActivityListaAlunosBinding.java
+ com.sortname.sorteio.databinding.ActivityListaAlunosBinding
+com/sortname/sorteio/model/ListaPrimeiroSemestre.java
+ com.sortname.sorteio.model.ListaPrimeiroSemestre
+com/sortname/sorteio/databinding/ActivityMainBinding.java
+ com.sortname.sorteio.databinding.ActivityMainBinding
 com/sortname/sorteio/BuildConfig.java
  com.sortname.sorteio.BuildConfig
-com/sortname/sorteio/MainActivity.java
- com.sortname.sorteio.MainActivity
+com/sortname/sorteio/model/ListaSegundoSemestre.java
+ com.sortname.sorteio.model.ListaSegundoSemestre

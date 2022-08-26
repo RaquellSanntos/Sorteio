@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aluno"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Aluno"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edTxNome"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome do Aluno" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semestre do aluno"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edTxSemestre"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Semestre do aluno" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail do aluno"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/edTxEmail"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="E-mail do aluno" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_pop_salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:baselineAligned="false"
+            android:text="  Salvar " />
+
+        <Button
+            android:id="@+id/bt_pop_excluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:baselineAligned="false"
+            android:text=" Excluir " />
+
+        <Button
+            android:id="@+id/bt_pop_cancelar"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:text="cancelar" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

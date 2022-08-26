@@ -4,7 +4,7 @@
             "outputFile": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/rasoares/.gradle/caches/transforms-2/files-2.1/d818f3c0c721a9b917e5282e835c3956/appcompat-1.5.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/rasoares/.gradle/caches/transforms-2/files-2.1/13ab803ce315259fc426cdd0c906445f/appcompat-1.4.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

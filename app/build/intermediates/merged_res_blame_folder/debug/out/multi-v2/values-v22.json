@@ -4,14 +4,14 @@
             "outputFile": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/rasoares/.gradle/caches/transforms-2/files-2.1/d818f3c0c721a9b917e5282e835c3956/appcompat-1.5.0/res/values-v22/values-v22.xml",
+                    "source": "/Users/rasoares/.gradle/caches/transforms-2/files-2.1/13ab803ce315259fc426cdd0c906445f/appcompat-1.4.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,487",
+                        "startOffsets": "55,130,217,553",
                         "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,482,764"
+                        "endOffsets": "125,212,548,896"
                     }
                 }
             ]

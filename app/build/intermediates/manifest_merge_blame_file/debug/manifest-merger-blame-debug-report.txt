@@ -11,11 +11,11 @@
 9-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:5:5-20:19
+11-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/dd636a952705bae23ad7b32276c1aff4/core-1.8.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/e3a25a6ab6fddcf1e2b54647ed5d5556/core-1.7.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:7:9-43
@@ -28,45 +28,70 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.Sorteio" >
 20-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:11:9-45
-21        <activity
-21-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:12:9-19:20
-22            android:name="com.sortname.sorteio.MainActivity"
-22-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:12:19-47
-23            android:exported="true" >
-23-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:13:13-36
-24            <intent-filter>
-24-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:15:17-69
-25-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:17:17-77
-27-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <provider
-31-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-33            android:authorities="com.sortname.sorteio.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-35            <meta-data
-35-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.2.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/647368f7a952cb2c0708ee657b0f3cc7/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/1fce80bc4269949518cd548d4f73fe6f/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/1fce80bc4269949518cd548d4f73fe6f/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/1fce80bc4269949518cd548d4f73fe6f/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-41        </provider>
-42    </application>
-43
-44</manifest>
+21        <activity android:name="com.sortname.sorteio.activity.ListaAlunosActivity" />
+21-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:12:9-75
+21-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:12:19-63
+22        <activity
+22-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:13:9-21:20
+23            android:name="com.sortname.sorteio.activity.MainActivity"
+23-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:14:13-50
+24            android:exported="true" >
+24-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:19:17-77
+28-->/Users/rasoares/Documents/Sorteio/app/src/main/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->[androidx.room:room-runtime:2.4.2] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/3b5eb9c4da27f105972a59a7d6007f38/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+33            android:name="androidx.room.MultiInstanceInvalidationService"
+33-->[androidx.room:room-runtime:2.4.2] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/3b5eb9c4da27f105972a59a7d6007f38/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+34            android:directBootAware="true"
+34-->[androidx.room:room-runtime:2.4.2] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/3b5eb9c4da27f105972a59a7d6007f38/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+35            android:exported="false" />
+35-->[androidx.room:room-runtime:2.4.2] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/3b5eb9c4da27f105972a59a7d6007f38/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+36
+37        <provider
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+38            android:name="androidx.startup.InitializationProvider"
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+39            android:authorities="com.sortname.sorteio.androidx-startup"
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+40            android:exported="false" >
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+41            <meta-data
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+43                android:value="androidx.startup" />
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/b8bee80b873f2845020c094d78908dd4/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+44            <meta-data
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+46                android:value="androidx.startup" />
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/07e953f5e31edeb519550c0d32dec9da/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+47        </provider>
+48
+49        <uses-library
+49-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.window.extensions"
+50-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:26:13-54
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:27:13-37
+52        <uses-library
+52-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:28:9-30:40
+53            android:name="androidx.window.sidecar"
+53-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:29:13-51
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] /Users/rasoares/.gradle/caches/transforms-2/files-2.1/cc2b81b84fba2fcbceae5de3f4a5b5e3/window-1.0.0/AndroidManifest.xml:30:13-37
+55    </application>
+56
+57</manifest>
