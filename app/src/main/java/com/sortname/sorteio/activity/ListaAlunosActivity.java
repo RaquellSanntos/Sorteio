@@ -33,6 +33,9 @@ public class ListaAlunosActivity extends AppCompatActivity {
     private List<ListaPrimeiroSemestre> listaPrimeiroSemestre;
     private ArrayAdapter<ListaPrimeiroSemestre> adapterPrimary;
 
+    private List<ListaPrimeiroSemestre> listaSegundoSemestre;
+    private ArrayAdapter<ListaPrimeiroSemestre> adapterSecundary;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,14 +63,14 @@ public class ListaAlunosActivity extends AppCompatActivity {
             if(bdRoom){
                 popUpListPrimary();
             } else {
-               // popUpListSecundary();
+                popUpListSecundary();
             }
         });
 
         if(bdRoom){
             preencheListPrimary();
         } else {
-        //    preencheListSecundary();
+            preencheListSecundary();
         }
     }
 
@@ -80,15 +83,54 @@ public class ListaAlunosActivity extends AppCompatActivity {
                                          i, l) -> popUpListPrimary(listaPrimeiroSemestre.get(i)));
     }
     private void preencheListSecundary(){
-        listaPrimeiroSemestre= PrimaryUtil.getAll();
-        adapterPrimary = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1, listaPrimeiroSemestre);
-        listView.setAdapter(adapterPrimary);
+        listaSegundoSemestre= PrimaryUtil.getAll();
+        adapterSecundary = new ArrayAdapter<>(this,
+                android.R.layout.simple_list_item_1, listaSegundoSemestre);
+        listView.setAdapter(adapterSecundary);
         listView.setOnItemClickListener((adapterView, view,
-                                         i, l) -> popUpListPrimary(listaPrimeiroSemestre.get(i)));
+                                         i, l) -> popUpListSecundary(listaSegundoSemestre.get(i)));
     }
 
     private void popUpListPrimary(ListaPrimeiroSemestre aluno){
+        nome.setText(aluno.getNome());
+        semestre.setText(aluno.getSemestre());
+        email.setText(aluno.getEmail());
+        popUp.showAtLocation(popupView, Gravity.CENTER, 0, 0);
+
+        Button btnSalvar = popupView.findViewById(R.id.bt_pop_salvar);
+        btnSalvar.setOnClickListener(view -> {
+            aluno.setSemestre(semestre.getText().toString());
+            aluno.setEmail(email.getText().toString());
+            aluno.setNome(nome.getText().toString());
+            PrimaryUtil.insertOrUpdate(aluno);
+            dismissPopUpAndRefreshPrimary();
+        });
+        Button btnExcluir = popupView.findViewById(R.id.bt_pop_excluir);
+        btnExcluir.setOnClickListener(view -> {
+            PrimaryUtil.delete(aluno);
+            dismissPopUpAndRefreshPrimary();
+        });
+    }
+
+    private void popUpListSecundary(){
+        nome.setText("");
+        semestre.setText("");
+        email.setText("");
+        popUp.showAtLocation(popupView, Gravity.CENTER, 0, 0);
+
+        Button btnSalvar = popupView.findViewById(R.id.bt_pop_salvar);
+        btnSalvar.setOnClickListener(view -> {
+            ListaPrimeiroSemestre aluno = new ListaPrimeiroSemestre(nome.getText().toString(),
+                    semestre.getText().toString(), email.getText().toString());
+            PrimaryUtil.insertOrUpdate(aluno);
+            dismissPopUpAndRefreshPrimary();
+        });
+
+        Button btnExcluir = popupView.findViewById(R.id.bt_pop_excluir);
+        btnExcluir.setOnClickListener(view -> dismissPopUpAndRefreshPrimary());
+    }
+
+    private void popUpListSecundary(ListaPrimeiroSemestre aluno){
         nome.setText(aluno.getNome());
         semestre.setText(aluno.getSemestre());
         email.setText(aluno.getEmail());
@@ -126,8 +168,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
         Button btnExcluir = popupView.findViewById(R.id.bt_pop_excluir);
         btnExcluir.setOnClickListener(view -> dismissPopUpAndRefreshPrimary());
     }
-
-
 
     private void dismissPopUpAndRefreshPrimary(){
         popUp.dismiss();
