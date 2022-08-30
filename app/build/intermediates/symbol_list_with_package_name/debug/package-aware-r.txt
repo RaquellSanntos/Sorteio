@@ -2659,13 +2659,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id bt_pop_cancelar
-id bt_pop_excluir
-id bt_pop_salvar
-id bt_primary
-id bt_segundo
-id buttonAdd
-id buttonLista
+id bt_add
+id bt_changed
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2744,9 +2739,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id edTxEmail
-id edTxNome
-id edTxSemestre
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -2818,12 +2810,11 @@ id legacy
 id line1
 id line3
 id linear
-id linear_radio_button_selected
 id listMode
 id list_item
 id locale
 id ltr
-id lv_lista_alunos
+id lv_list_primary
 id masked
 id match_constraint
 id match_parent
@@ -2921,6 +2912,7 @@ id percent
 id pin
 id position
 id postLayout
+id primarySemester
 id progress_circular
 id progress_horizontal
 id radio
@@ -2954,6 +2946,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secondarySemester
 id select_dialog_listview
 id selected
 id selection_type
@@ -3164,8 +3157,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_lista_alunos
 layout activity_main
+layout activity_primary_semester
+layout activity_secondary_semester
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3236,7 +3230,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout popup_aluno
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3387,7 +3380,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
-string string_lista_alunos
+string string_lista_primay
+string string_lista_secondary
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

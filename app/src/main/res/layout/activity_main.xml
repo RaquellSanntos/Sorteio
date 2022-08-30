@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.MainActivity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,41 +24,40 @@
         android:textSize="24sp"
         android:textStyle="bold"/>
 
-    <LinearLayout
-        android:id="@+id/linear_radio_button_selected"
+    <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/bt_primary"
+            android:id="@+id/primarySemester"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="1 semestre"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"/>
 
         <RadioButton
-            android:id="@+id/bt_segundo"
+            android:id="@+id/secondarySemester"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
             android:text="2 semestre"
-            android:textStyle="bold" />
-
-    </LinearLayout>
+            android:textStyle="bold"
+            android:layout_marginEnd="15dp"/>
+    </RadioGroup>
 
     <Button
-        android:id="@+id/buttonLista"
+        android:id="@+id/bt_changed"
         android:layout_width="272dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:text="lista de alunos"/>
+        android:text="sortear aluno"/>
 
 
 </LinearLayout>

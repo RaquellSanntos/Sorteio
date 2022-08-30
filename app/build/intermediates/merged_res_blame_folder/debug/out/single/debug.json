@@ -32,10 +32,6 @@
         "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/layout_popup_aluno.xml.flat",
-        "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/layout/popup_aluno.xml"
-    },
-    {
         "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -56,8 +52,8 @@
         "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/layout_activity_lista_alunos.xml.flat",
-        "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/layout/activity_lista_alunos.xml"
+        "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/layout_activity_primary_semester.xml.flat",
+        "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/layout/activity_primary_semester.xml"
     },
     {
         "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -70,5 +66,9 @@
     {
         "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/res/merged/debug/layout_activity_secondary_semester.xml.flat",
+        "source": "/Users/rasoares/Documents/Sorteio/app/src/main/res/layout/activity_secondary_semester.xml"
     }
 ]

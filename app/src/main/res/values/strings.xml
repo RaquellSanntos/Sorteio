@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Sorteio</string>
-    <string name="string_lista_alunos">Lista de Alunos</string>
+    <string name="string_lista_primay">Alunos 1˚ Semestre</string>
+    <string name="string_lista_secondary">Alunos 2˚ Semestre</string>
 </resources>
