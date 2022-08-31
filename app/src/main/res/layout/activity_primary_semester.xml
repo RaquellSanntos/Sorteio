@@ -12,7 +12,7 @@
         android:layout_margin="16dp"
         android:layout_width="match_parent"
         android:layout_height="154dp"
-        app:srcCompat="@drawable/sorteio" />
+        app:srcCompat="@mipmap/ic_launcher_present" />
 
     <TextView
         android:id="@+id/textView"
@@ -27,12 +27,11 @@
         android:text="@string/string_escolher_o_vencendor_primary" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bt_primary"
         android:layout_margin="16dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="ganhadorPrimary"
         android:text="@string/string_escolher_vencedor" />
 
     <TextView
