@@ -22,8 +22,9 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_height="wrap_content"
-        android:textSize="24dp"
-        android:text="Aperte para escolher \n  o vencendor (a)" />
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="@string/string_escolher_o_vencendor_primary" />
 
     <Button
         android:id="@+id/button"
@@ -31,17 +32,20 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="escolha o vencedor" />
+        android:onClick="ganhadorPrimary"
+        android:text="@string/string_escolher_vencedor" />
+
     <TextView
         android:id="@+id/txtView"
-        android:layout_margin="16dp"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
         android:gravity="center"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:layout_height="wrap_content"
-        android:textSize="24dp"
-        android:text="Nome do vencedor(a)" />
+        android:textSize="24sp"
+        android:text="@string/string_nenhum_sorteado" />
 
 
 </LinearLayout>

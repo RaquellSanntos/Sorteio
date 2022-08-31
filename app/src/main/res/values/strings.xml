@@ -2,4 +2,8 @@
     <string name="app_name">Sorteio</string>
     <string name="string_lista_primay">Alunos 1˚ Semestre</string>
     <string name="string_lista_secondary">Alunos 2˚ Semestre</string>
+    <string name="string_nenhum_sorteado">Nenhum vencedor(a)</string>
+    <string name="string_escolher_vencedor">escolha o vencedor</string>
+    <string name="string_escolher_o_vencendor_primary"> Escolha o vencendor(a) do 1˚Semestre</string>
+    <string name="sstring_escolher_o_vencendor_secundary"> Escolha o vencendor(a) do 2˚Semestre</string>
 </resources>
