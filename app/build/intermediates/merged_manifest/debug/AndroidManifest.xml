@@ -16,14 +16,16 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_present"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Sorteio" >
+        <activity android:name="com.sortname.sorteio.MainActivity" />
+        <activity android:name="com.sortname.sorteio.ListPrimarySemesterActivity" />
         <activity android:name="com.sortname.sorteio.SecondarySemesterActivity" />
         <activity android:name="com.sortname.sorteio.PrimarySemesterActivity" />
         <activity
-            android:name="com.sortname.sorteio.MainActivity"
+            android:name="com.sortname.sorteio.Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

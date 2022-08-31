@@ -2514,6 +2514,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_present_background
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2522,6 +2523,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable maskgroup
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2659,8 +2661,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id bt_add
 id bt_changed
+id bt_primary
+id bt_secondary
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2814,7 +2817,6 @@ id listMode
 id list_item
 id locale
 id ltr
-id lv_list_primary
 id masked
 id match_constraint
 id match_parent
@@ -3015,6 +3017,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3040,7 +3043,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tx_lista_alunos
+id txtView
 id txv_selecione
 id unchecked
 id uniform
@@ -3157,9 +3160,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_list_primary_semester
 layout activity_main
 layout activity_primary_semester
 layout activity_secondary_semester
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3253,7 +3258,10 @@ layout text_view_without_line_height
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_present
 mipmap ic_launcher_round
+mipmap ic_present
+mipmap ic_present_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3379,9 +3387,13 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string sstring_escolher_o_vencendor_secundary
 string status_bar_notification_info_overflow
+string string_escolher_o_vencendor_primary
+string string_escolher_vencedor
 string string_lista_primay
 string string_lista_secondary
+string string_nenhum_sorteado
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

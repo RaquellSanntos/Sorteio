@@ -4,18 +4,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Random;
 
 public class SecondarySemesterActivity extends AppCompatActivity {
-
+    Button btsecondary;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_secondary_semester);
+
+        btsecondary = findViewById(R.id.bt_secondary);
+        btsecondary.setOnClickListener(view -> ganhadorSecundary());
     }
-    public void ganhadorSecundary(View view) {
+    public void ganhadorSecundary() {
         String[] nomes = {
                 "BRENO DA SILVA ROCHA",
                 "CINTIA BRANDÃO DA SILVA",

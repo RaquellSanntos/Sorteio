@@ -8,13 +8,15 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_present"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sorteio">
-        <activity android:name=".SecondarySemesterActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ListPrimarySemesterActivity" />
+        <activity android:name=".SecondarySemesterActivity" />
         <activity android:name=".PrimarySemesterActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

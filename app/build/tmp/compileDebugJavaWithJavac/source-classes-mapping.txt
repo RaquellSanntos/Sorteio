@@ -1,14 +1,24 @@
 com/sortname/sorteio/databinding/ActivitySecondarySemesterBinding.java
  com.sortname.sorteio.databinding.ActivitySecondarySemesterBinding
+com/sortname/sorteio/Splash.java
+ com.sortname.sorteio.Splash
+ com.sortname.sorteio.Splash$1
+com/sortname/sorteio/databinding/ActivityListPrimarySemesterBinding.java
+ com.sortname.sorteio.databinding.ActivityListPrimarySemesterBinding
+com/sortname/sorteio/ListPrimarySemesterActivity.java
+ com.sortname.sorteio.ListPrimarySemesterActivity
 com/sortname/sorteio/databinding/ActivityMainBinding.java
  com.sortname.sorteio.databinding.ActivityMainBinding
-com/sortname/sorteio/PrimarySemesterActivity.java
- com.sortname.sorteio.PrimarySemesterActivity
-com/sortname/sorteio/BuildConfig.java
- com.sortname.sorteio.BuildConfig
-com/sortname/sorteio/SecondarySemesterActivity.java
- com.sortname.sorteio.SecondarySemesterActivity
 com/sortname/sorteio/databinding/ActivityPrimarySemesterBinding.java
  com.sortname.sorteio.databinding.ActivityPrimarySemesterBinding
+com/sortname/sorteio/BuildConfig.java
+ com.sortname.sorteio.BuildConfig
+com/sortname/sorteio/databinding/ActivitySplashBinding.java
+ com.sortname.sorteio.databinding.ActivitySplashBinding
 com/sortname/sorteio/MainActivity.java
  com.sortname.sorteio.MainActivity
+com/sortname/sorteio/PrimarySemesterActivity.java
+ com.sortname.sorteio.PrimarySemesterActivity
+ com.sortname.sorteio.PrimarySemesterActivity$1
+com/sortname/sorteio/SecondarySemesterActivity.java
+ com.sortname.sorteio.SecondarySemesterActivity

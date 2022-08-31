@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void selectPrimraySemester (){
-        startActivity(new Intent(this,PrimarySemesterActivity.class));
+        Intent intent = new Intent(getApplicationContext(),PrimarySemesterActivity.class);
+        startActivity(intent);
        // finish();
     }
     private void selectSecondarySemester(){

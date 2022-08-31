@@ -2,21 +2,32 @@ package com.sortname.sorteio;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Random;
 
 public class PrimarySemesterActivity extends AppCompatActivity {
+    private Button btprimary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primary_semester);
+
+         btprimary = findViewById(R.id.bt_primary);
+        btprimary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ganhadorPrimary();
+            }
+        });
     }
 
-    public void ganhadorPrimary(View view) {
+    public void ganhadorPrimary() {
         String[] nomes = {
                 "ANDERSEN LUCAS LOPES BORBA",
                 "BRUNO DOURADO MACHADO",
