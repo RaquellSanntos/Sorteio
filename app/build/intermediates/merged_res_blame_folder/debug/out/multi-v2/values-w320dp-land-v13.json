@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rasoares/Documents/Sorteio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "C:\\Users\\Samsung\\AndroidStudioProjects\\Sorteio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/rasoares/.gradle/caches/transforms-2/files-2.1/319cae13c13c66922dcf06c280aab91b/material-1.6.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-2\\files-2.1\\319cae13c13c66922dcf06c280aab91b\\material-1.6.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
