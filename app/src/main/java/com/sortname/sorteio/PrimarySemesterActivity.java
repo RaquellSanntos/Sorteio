@@ -19,12 +19,7 @@ public class PrimarySemesterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_primary_semester);
 
          btprimary = findViewById(R.id.bt_primary);
-        btprimary.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ganhadorPrimary();
-            }
-        });
+        btprimary.setOnClickListener(view -> ganhadorPrimary());
     }
 
     public void ganhadorPrimary() {
@@ -32,13 +27,13 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "ANDERSEN LUCAS LOPES BORBA",
                 "BRUNO DOURADO MACHADO",
                 "CAIO BRASIL GOMES",
-             //   "DAMYZ CASSIANO OLIVEIRA DA SILVA",
+             //   "DAMYZ CASSIANO OLIVEIRA DA SILVA", (Sorteado)
                 "DANIELLA SILVA DOS SANTOS",
                 "DENIS FARIAS RAMOS",
                 "GUILHERME DE ALMEIDA OBANDO",
                 "HAROLDO DE SOUZA CALDERARO",
                 "HEWERTON BRITO ASCENCAO",
-              //  "JOAO PAULO PINHEIRO DA SILVA",
+              //  "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
                 "JONATHAN SILVA SANTOS",
                 "KELLY CHRISTINA PIMENTEL DA SILVA",
                 "LEANDRO SOUZA DOS SANTOS",
