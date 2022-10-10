@@ -37,7 +37,7 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "JONATHAN SILVA SANTOS",
                 "KELLY CHRISTINA PIMENTEL DA SILVA",
                 "LEANDRO SOUZA DOS SANTOS",
-                "LUIZ AMERICO GRIJO CARDOSO",
+//                "LUIZ AMERICO GRIJO CARDOSO", (Ausente)
                 "MARCUS VINICIUS DE ARAUJO",
                 "MATEUS SANTOS SOUZA",
                 "MAYR DI FRANCO NAJAR AROUCHAR",
