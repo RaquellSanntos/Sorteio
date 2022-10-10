@@ -24,7 +24,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
               //  "BRENO DA SILVA ROCHA",
                 "CINTIA BRANDÃO DA SILVA",
                 "DANIEL BRUNO MEDEIROS",
-                "GUIBSON JUNIOR FERREIRA DOS SANTOS",
+               // "GUIBSON JUNIOR FERREIRA DOS SANTOS",
                 "JOÃO VITOR BARROS DA SIVA",
                 "JOSUÉ DOS SANTOS CALDAS",
                 "LEONARDO ABNER RIBEIRO",
@@ -35,7 +35,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
                 "ROBERTO PARENTE DA SILVA",
                 "TALYSSON DE ABREU GARCIA"
         };
-        int sorteado = new Random().nextInt(30);
+        int sorteado = new Random().nextInt(nomes.length);
         TextView divulgarNome = findViewById(R.id.txtView);
 
         divulgarNome.setText(nomes[sorteado]);
