@@ -1,4 +1,4 @@
-package com.sortname.sorteio;
+package com.sortname.sorteio.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.sortname.sorteio.R;
 
 import java.util.Random;
 
@@ -21,8 +23,8 @@ public class SecondarySemesterActivity extends AppCompatActivity {
     }
     public void ganhadorSecundary() {
         String[] nomes = {
-              //  "BRENO DA SILVA ROCHA", (sorteado)
-                "CINTIA BRANDÃO DA SILVA",
+//                "BRENO DA SILVA ROCHA", (sorteado)
+//                "CINTIA BRANDÃO DA SILVA",
                 "DANIEL BRUNO MEDEIROS",
                // "GUIBSON JUNIOR FERREIRA DOS SANTOS",(Ausente)
                 "JOÃO VITOR BARROS DA SIVA",

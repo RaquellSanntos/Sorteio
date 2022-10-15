@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecondarySemesterActivity">
+    tools:context=".ui.SecondarySemesterActivity">
     <ImageView
         android:id="@+id/imageView"
         android:layout_margin="16dp"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:text="@string/sstring_escolher_o_vencendor_secundary" />
+        android:text="@string/string_escolher_o_vencendor_secundary" />
 
     <Button
         android:id="@+id/bt_secondary"
