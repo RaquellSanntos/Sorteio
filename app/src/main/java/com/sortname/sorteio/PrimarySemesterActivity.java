@@ -27,13 +27,13 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "ANDERSEN LUCAS LOPES BORBA",
                 "BRUNO DOURADO MACHADO",
                 "CAIO BRASIL GOMES",
-             //   "DAMYZ CASSIANO OLIVEIRA DA SILVA", (Sorteado)
+//                "DAMYZ CASSIANO OLIVEIRA DA SILVA", (Sorteado)
                 "DANIELLA SILVA DOS SANTOS",
                 "DENIS FARIAS RAMOS",
                 "GUILHERME DE ALMEIDA OBANDO",
                 "HAROLDO DE SOUZA CALDERARO",
                 "HEWERTON BRITO ASCENCAO",
-              //  "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
+//                "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
                 "JONATHAN SILVA SANTOS",
                 "KELLY CHRISTINA PIMENTEL DA SILVA",
                 "LEANDRO SOUZA DOS SANTOS",
