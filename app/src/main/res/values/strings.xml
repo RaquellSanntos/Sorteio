@@ -5,5 +5,10 @@
     <string name="string_nenhum_sorteado">Nenhum vencedor(a)</string>
     <string name="string_escolher_vencedor">escolha o vencedor</string>
     <string name="string_escolher_o_vencendor_primary"> Escolha o vencendor(a) do 1˚Semestre</string>
-    <string name="sstring_escolher_o_vencendor_secundary"> Escolha o vencendor(a) do 2˚Semestre</string>
+    <string name="string_escolher_o_vencendor_secundary"> Escolha o vencendor(a) do 2˚Semestre</string>
+    <string name="string_lista_aluno_primary"> Lista 1˚Semestre</string>
+    <string name="string_name">Nome</string>
+    <string name="string_phone">Telefone</string>
+    <string name="string_e_mail">E-mail</string>
+    <string name="string_save">salvar</string>
 </resources>
