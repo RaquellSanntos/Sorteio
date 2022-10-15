@@ -1,4 +1,4 @@
-package com.sortname.sorteio;
+package com.sortname.sorteio.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+
+import com.sortname.sorteio.R;
 
 
 public class Splash extends AppCompatActivity {
@@ -21,7 +23,7 @@ public class Splash extends AppCompatActivity {
         new Handler() .postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getBaseContext(),MainActivity.class));
+                startActivity(new Intent(getBaseContext(), MainActivity.class));
                 finish();
             }
         },3000);

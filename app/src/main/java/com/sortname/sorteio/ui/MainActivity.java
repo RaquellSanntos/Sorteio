@@ -1,14 +1,17 @@
-package com.sortname.sorteio;
+package com.sortname.sorteio.ui;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.sortname.sorteio.R;
+import com.sortname.sorteio.ui.PrimarySemesterActivity;
+import com.sortname.sorteio.ui.SecondarySemesterActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,12 +37,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void selectPrimraySemester (){
-        Intent intent = new Intent(getApplicationContext(),PrimarySemesterActivity.class);
+        Intent intent = new Intent(getApplicationContext(), PrimarySemesterActivity.class);
         startActivity(intent);
        // finish();
     }
     private void selectSecondarySemester(){
-        startActivity(new Intent(this,SecondarySemesterActivity.class));
+        startActivity(new Intent(this, SecondarySemesterActivity.class));
        // finish();
     }
     public void startVibrate() {
