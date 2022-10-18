@@ -11,12 +11,13 @@
         android:roundIcon="@mipmap/ic_present"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sorteio">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".ListPrimarySemesterActivity" />
-        <activity android:name=".SecondarySemesterActivity" />
-        <activity android:name=".PrimarySemesterActivity" />
+        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name=".ui.FormularioAlunoActivity" />
+        <activity android:name=".ui.Splash" />
+        <activity android:name=".ui.SecondarySemesterActivity" />
+        <activity android:name=".ui.PrimarySemesterActivity" />
         <activity
-            android:name=".Splash"
+            android:name=".ui.ListaAlunosActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
