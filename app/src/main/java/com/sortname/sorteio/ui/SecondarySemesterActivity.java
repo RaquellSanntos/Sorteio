@@ -24,7 +24,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
     public void ganhadorSecundary() {
         String[] nomes = {
 //                "BRENO DA SILVA ROCHA", (sorteado)
-//                "CINTIA BRANDÃO DA SILVA",
+//                "CINTIA BRANDÃO DA SILVA", (sorteada)
                 "DANIEL BRUNO MEDEIROS",
                // "GUIBSON JUNIOR FERREIRA DOS SANTOS",(Ausente)
                 "JOÃO VITOR BARROS DA SIVA",
