@@ -1,12 +1,10 @@
 package com.sortname.sorteio.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.sortname.sorteio.R;
 
@@ -35,10 +33,13 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "GUILHERME DE ALMEIDA OBANDO",
                 "HAROLDO DE SOUZA CALDERARO",
                 "HEWERTON BRITO ASCENCAO",
+                "Hoelito Natividade de Lima",
+                "Jessica Mayumi de Araújo Ikuno ",
 //                "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
                 "JONATHAN SILVA SANTOS",
                 "KELLY CHRISTINA PIMENTEL DA SILVA",
-                "LEANDRO SOUZA DOS SANTOS",
+//                "LEANDRO SOUZA DOS SANTOS",(Ausente)
+                "Leonardo Costa Rodrigues",
 //                "LUIZ AMERICO GRIJO CARDOSO", (Ausente)
                 "MARCUS VINICIUS DE ARAUJO",
                 "MATEUS SANTOS SOUZA",
