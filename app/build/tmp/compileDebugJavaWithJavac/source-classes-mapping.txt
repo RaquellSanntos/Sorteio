@@ -1,24 +1,31 @@
-com/sortname/sorteio/databinding/ActivitySecondarySemesterBinding.java
- com.sortname.sorteio.databinding.ActivitySecondarySemesterBinding
-com/sortname/sorteio/Splash.java
- com.sortname.sorteio.Splash
- com.sortname.sorteio.Splash$1
-com/sortname/sorteio/databinding/ActivityListPrimarySemesterBinding.java
- com.sortname.sorteio.databinding.ActivityListPrimarySemesterBinding
-com/sortname/sorteio/ListPrimarySemesterActivity.java
- com.sortname.sorteio.ListPrimarySemesterActivity
+com/sortname/sorteio/model/Aluno.java
+ com.sortname.sorteio.model.Aluno
+com/sortname/sorteio/databinding/ActivityAlunoFormularioBinding.java
+ com.sortname.sorteio.databinding.ActivityAlunoFormularioBinding
+com/sortname/sorteio/ui/Splash.java
+ com.sortname.sorteio.ui.Splash
+ com.sortname.sorteio.ui.Splash$1
+com/sortname/sorteio/ui/SecondarySemesterActivity.java
+ com.sortname.sorteio.ui.SecondarySemesterActivity
+com/sortname/sorteio/databinding/ActivityListaAlunosBinding.java
+ com.sortname.sorteio.databinding.ActivityListaAlunosBinding
 com/sortname/sorteio/databinding/ActivityMainBinding.java
  com.sortname.sorteio.databinding.ActivityMainBinding
-com/sortname/sorteio/databinding/ActivityPrimarySemesterBinding.java
- com.sortname.sorteio.databinding.ActivityPrimarySemesterBinding
 com/sortname/sorteio/BuildConfig.java
  com.sortname.sorteio.BuildConfig
 com/sortname/sorteio/databinding/ActivitySplashBinding.java
  com.sortname.sorteio.databinding.ActivitySplashBinding
-com/sortname/sorteio/MainActivity.java
- com.sortname.sorteio.MainActivity
-com/sortname/sorteio/PrimarySemesterActivity.java
- com.sortname.sorteio.PrimarySemesterActivity
- com.sortname.sorteio.PrimarySemesterActivity$1
-com/sortname/sorteio/SecondarySemesterActivity.java
- com.sortname.sorteio.SecondarySemesterActivity
+com/sortname/sorteio/databinding/ActivityPrimarySemesterBinding.java
+ com.sortname.sorteio.databinding.ActivityPrimarySemesterBinding
+com/sortname/sorteio/databinding/ActivitySecondarySemesterBinding.java
+ com.sortname.sorteio.databinding.ActivitySecondarySemesterBinding
+com/sortname/sorteio/ui/MainActivity.java
+ com.sortname.sorteio.ui.MainActivity
+com/sortname/sorteio/alunoDAO/AlunoDAO.java
+ com.sortname.sorteio.alunoDAO.AlunoDAO
+com/sortname/sorteio/ui/PrimarySemesterActivity.java
+ com.sortname.sorteio.ui.PrimarySemesterActivity
+com/sortname/sorteio/ui/FormularioAlunoActivity.java
+ com.sortname.sorteio.ui.FormularioAlunoActivity
+com/sortname/sorteio/ui/ListaAlunosActivity.java
+ com.sortname.sorteio.ui.ListaAlunosActivity

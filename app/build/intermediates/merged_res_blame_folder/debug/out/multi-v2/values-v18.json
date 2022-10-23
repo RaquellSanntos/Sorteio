@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Samsung\\AndroidStudioProjects\\Sorteio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-2\\files-2.1\\13ab803ce315259fc426cdd0c906445f\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\raque\\.gradle\\caches\\transforms-2\\files-2.1\\13ab803ce315259fc426cdd0c906445f\\appcompat-1.4.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

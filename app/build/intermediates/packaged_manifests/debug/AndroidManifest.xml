@@ -20,12 +20,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Sorteio" >
-        <activity android:name="com.sortname.sorteio.MainActivity" />
-        <activity android:name="com.sortname.sorteio.ListPrimarySemesterActivity" />
-        <activity android:name="com.sortname.sorteio.SecondarySemesterActivity" />
-        <activity android:name="com.sortname.sorteio.PrimarySemesterActivity" />
+        <activity android:name="com.sortname.sorteio.ui.MainActivity" />
+        <activity android:name="com.sortname.sorteio.ui.FormularioAlunoActivity" />
+        <activity android:name="com.sortname.sorteio.ui.Splash" />
+        <activity android:name="com.sortname.sorteio.ui.SecondarySemesterActivity" />
+        <activity android:name="com.sortname.sorteio.ui.PrimarySemesterActivity" />
         <activity
-            android:name="com.sortname.sorteio.Splash"
+            android:name="com.sortname.sorteio.ui.ListaAlunosActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

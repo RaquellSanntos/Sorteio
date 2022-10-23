@@ -6,105 +6,108 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml
+8-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml
+9-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.VIBRATE" />
-11-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:5:5-66
-11-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:5:22-63
+11-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:5:22-63
 12
 13    <application
-13-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:7:5-27:19
+13-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:7:5-28:19
 14        android:allowBackup="true"
-14-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\e3a25a6ab6fddcf1e2b54647ed5d5556\core-1.7.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.7.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\e3a25a6ab6fddcf1e2b54647ed5d5556\core-1.7.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:9:9-43
+17-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_present"
-19-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:11:9-47
+19-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:11:9-47
 20        android:supportsRtl="true"
-20-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.Sorteio" >
-22-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:13:9-45
-23        <activity android:name="com.sortname.sorteio.MainActivity" />
-23-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:14:9-59
-23-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:14:19-47
-24        <activity android:name="com.sortname.sorteio.ListPrimarySemesterActivity" />
-24-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:15:9-65
-24-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:15:19-62
-25        <activity android:name="com.sortname.sorteio.SecondarySemesterActivity" />
-25-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:16:9-63
-25-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:16:19-60
-26        <activity android:name="com.sortname.sorteio.PrimarySemesterActivity" />
-26-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:17:9-61
-26-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:17:19-58
-27        <activity
-27-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:18:9-26:20
-28            android:name="com.sortname.sorteio.Splash"
-28-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:19:13-35
-29            android:exported="true" >
-29-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:20:13-36
-30            <intent-filter>
-30-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:21:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:22:17-69
-31-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:22:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:24:17-77
-33-->C:\Users\Samsung\AndroidStudioProjects\Sorteio\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <service
-37-->[androidx.room:room-runtime:2.4.2] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
-38            android:name="androidx.room.MultiInstanceInvalidationService"
-38-->[androidx.room:room-runtime:2.4.2] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
-39            android:directBootAware="true"
-39-->[androidx.room:room-runtime:2.4.2] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
-40            android:exported="false" />
-40-->[androidx.room:room-runtime:2.4.2] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
-41
-42        <provider
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-43            android:name="androidx.startup.InitializationProvider"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-44            android:authorities="com.sortname.sorteio.androidx-startup"
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-45            android:exported="false" >
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-46            <meta-data
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-48                android:value="androidx.startup" />
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-49            <meta-data
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-51                android:value="androidx.startup" />
-51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-52        </provider>
-53
-54        <uses-library
-54-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:25:9-27:40
-55            android:name="androidx.window.extensions"
-55-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:26:13-54
-56            android:required="false" />
-56-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:27:13-37
-57        <uses-library
-57-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:28:9-30:40
-58            android:name="androidx.window.sidecar"
-58-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:29:13-51
-59            android:required="false" />
-59-->[androidx.window:window:1.0.0] C:\Users\Samsung\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:30:13-37
-60    </application>
-61
-62</manifest>
+22-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:13:9-45
+23        <activity android:name="com.sortname.sorteio.ui.MainActivity" />
+23-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:14:9-62
+23-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:14:19-50
+24        <activity android:name="com.sortname.sorteio.ui.FormularioAlunoActivity" />
+24-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:15:9-64
+24-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:15:19-61
+25        <activity android:name="com.sortname.sorteio.ui.Splash" />
+25-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:16:9-47
+25-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:16:19-44
+26        <activity android:name="com.sortname.sorteio.ui.SecondarySemesterActivity" />
+26-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:17:9-66
+26-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:17:19-63
+27        <activity android:name="com.sortname.sorteio.ui.PrimarySemesterActivity" />
+27-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:18:9-64
+27-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:18:19-61
+28        <activity
+28-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:19:9-27:20
+29            android:name="com.sortname.sorteio.ui.ListaAlunosActivity"
+29-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:20:13-51
+30            android:exported="true" >
+30-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:21:13-36
+31            <intent-filter>
+31-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.sortname.sorteio.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:30:13-37
+61    </application>
+62
+63</manifest>
