@@ -12,12 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sorteio">
         <activity android:name=".ui.MainActivity"></activity>
-        <activity android:name=".ui.FormularioAlunoActivity" />
-        <activity android:name=".ui.Splash" />
         <activity android:name=".ui.SecondarySemesterActivity" />
         <activity android:name=".ui.PrimarySemesterActivity" />
         <activity
-            android:name=".ui.ListaAlunosActivity"
+            android:name=".ui.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
