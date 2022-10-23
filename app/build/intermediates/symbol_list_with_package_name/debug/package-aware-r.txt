@@ -2663,7 +2663,6 @@ id bounceEnd
 id bounceStart
 id bt_changed
 id bt_primary
-id bt_salvar
 id bt_secondary
 id buttonPanel
 id cache_measures
@@ -2743,9 +2742,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id ed_email
-id ed_name
-id ed_phone
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -2757,7 +2753,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -2819,7 +2814,6 @@ id line1
 id line3
 id linear
 id listMode
-id listView
 id list_item
 id locale
 id ltr
@@ -3050,7 +3044,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txtView
-id txtlistPrimary
 id txv_selecione
 id unchecked
 id uniform
@@ -3167,8 +3160,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_aluno_formulario
-layout activity_lista_alunos
 layout activity_main
 layout activity_primary_semester
 layout activity_secondary_semester
