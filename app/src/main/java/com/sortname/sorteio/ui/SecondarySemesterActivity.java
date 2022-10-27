@@ -31,7 +31,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
                 "JOSUÉ DOS SANTOS CALDAS",
                 "LEONARDO ABNER RIBEIRO",
 //                "LUAN MACHADO DA FONSECA",
-                "MARIA EDUARDA SOUZA DOS SANTOS",
+//                "MARIA EDUARDA SOUZA DOS SANTOS",
                 "NEG ELIAS ESPINO FERRER",
                 "RICKSON WILLIAM DANTAS FERREIRA",
                 "ROBERTO PARENTE DA SILVA",

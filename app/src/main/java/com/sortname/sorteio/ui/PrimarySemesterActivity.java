@@ -21,7 +21,6 @@ public class PrimarySemesterActivity extends AppCompatActivity {
          btprimary = findViewById(R.id.bt_primary);
         btprimary.setOnClickListener(view -> ganhadorPrimary());
     }
-
     public void ganhadorPrimary() {
         String[] nomes = {
                 "ANDERSEN LUCAS LOPES BORBA",
