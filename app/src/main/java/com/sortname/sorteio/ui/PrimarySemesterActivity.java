@@ -38,6 +38,7 @@ public class PrimarySemesterActivity extends AppCompatActivity {
 //                "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
                 "JONATHAN SILVA SANTOS",
                 "KELLY CHRISTINA PIMENTEL DA SILVA",
+//                "Kevellym Luiz Henrick Farias de Souza",
 //                "LEANDRO SOUZA DOS SANTOS",(Ausente)
                 "Leonardo Costa Rodrigues",
 //                "LUIZ AMERICO GRIJO CARDOSO", (Ausente)
