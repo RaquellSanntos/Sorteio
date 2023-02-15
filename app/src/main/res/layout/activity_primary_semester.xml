@@ -10,11 +10,11 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottie_present"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        app:lottie_fileName="present.json"
+        app:lottie_fileName="purple-presents.json"
         app:lottie_autoPlay="true"
         app:lottie_loop="true" />
 
