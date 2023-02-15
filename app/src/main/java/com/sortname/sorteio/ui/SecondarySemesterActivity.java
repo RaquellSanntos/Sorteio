@@ -32,7 +32,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
                 "LEONARDO ABNER RIBEIRO",
 //                "LUAN MACHADO DA FONSECA",
 //                "MARIA EDUARDA SOUZA DOS SANTOS",
-                "NEG ELIAS ESPINO FERRER",
+//                "NEG ELIAS ESPINO FERRER",
                 "RICKSON WILLIAM DANTAS FERREIRA",
                 "ROBERTO PARENTE DA SILVA",
 //                "TALYSSON DE ABREU GARCIA"
