@@ -7,13 +7,13 @@ com/sortname/sorteio/databinding/ActivityPrimarySemesterBinding.java
 com/sortname/sorteio/ui/Splash.java
  com.sortname.sorteio.ui.Splash
  com.sortname.sorteio.ui.Splash$1
-com/sortname/sorteio/ui/SecondarySemesterActivity.java
- com.sortname.sorteio.ui.SecondarySemesterActivity
-com/sortname/sorteio/BuildConfig.java
- com.sortname.sorteio.BuildConfig
 com/sortname/sorteio/databinding/ActivityMainBinding.java
  com.sortname.sorteio.databinding.ActivityMainBinding
+com/sortname/sorteio/BuildConfig.java
+ com.sortname.sorteio.BuildConfig
 com/sortname/sorteio/ui/MainActivity.java
  com.sortname.sorteio.ui.MainActivity
+com/sortname/sorteio/ui/SecondarySemesterActivity.java
+ com.sortname.sorteio.ui.SecondarySemesterActivity
 com/sortname/sorteio/ui/PrimarySemesterActivity.java
  com.sortname.sorteio.ui.PrimarySemesterActivity

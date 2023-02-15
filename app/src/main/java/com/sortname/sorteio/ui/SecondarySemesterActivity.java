@@ -35,7 +35,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
                 "NEG ELIAS ESPINO FERRER",
                 "RICKSON WILLIAM DANTAS FERREIRA",
                 "ROBERTO PARENTE DA SILVA",
-                "TALYSSON DE ABREU GARCIA"
+//                "TALYSSON DE ABREU GARCIA"
         };
         int sorteado = new Random().nextInt(nomes.length);
         TextView divulgarNome = findViewById(R.id.txtView);

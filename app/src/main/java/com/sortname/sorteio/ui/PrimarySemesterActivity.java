@@ -30,13 +30,13 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "DANIELLA SILVA DOS SANTOS",
                 "DENIS FARIAS RAMOS",
                 "GUILHERME DE ALMEIDA OBANDO",
-                "HAROLDO DE SOUZA CALDERARO",
+//                "HAROLDO DE SOUZA CALDERARO",
                 "HEWERTON BRITO ASCENCAO",
                 "Hoelito Natividade de Lima",
                 "Jessica Mayumi de Araújo Ikuno ",
 //                "JOAO PAULO PINHEIRO DA SILVA", (Sorteado)
                 "JONATHAN SILVA SANTOS",
-                "KELLY CHRISTINA PIMENTEL DA SILVA",
+//                "KELLY CHRISTINA PIMENTEL DA SILVA",
 //                "Kevellym Luiz Henrick Farias de Souza",
 //                "LEANDRO SOUZA DOS SANTOS",(Ausente)
                 "Leonardo Costa Rodrigues",
@@ -47,9 +47,9 @@ public class PrimarySemesterActivity extends AppCompatActivity {
                 "NAELEM SILVA DE SOUZA",
                 "PAULO DEYVID BARROS DO NASCIMENTO",
                 "ROGER MILLER DA SILVA DOS SANTOS",
-                "SARAH CRISTINNY OLIVEIRA LOPES",
+//                "SARAH CRISTINNY OLIVEIRA LOPES",
                 "VICTOR SAULO LITAIFF PEREIRA",
-                "VITOR ANDES DOS SANTOS"
+//                "VITOR ANDES DOS SANTOS"
         };
         int sorteado = new Random().nextInt(nomes.length);
         TextView divulgarNome = findViewById(R.id.txtView);
