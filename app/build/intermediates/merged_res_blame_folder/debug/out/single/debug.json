@@ -32,12 +32,16 @@
         "source": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_maskgroup.png.flat",
-        "source": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\src\\main\\res\\drawable-v24\\maskgroup.png"
+        "merged": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\res\\merged\\debug\\font_carter_one.xml.flat",
+        "source": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\src\\main\\res\\font\\carter_one.xml"
     },
     {
         "merged": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_gradiente.xml.flat",
+        "source": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\src\\main\\res\\drawable\\background_gradiente.xml"
     },
     {
         "merged": "C:\\Users\\raque\\Desktop\\myProjects\\Sorteio\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_secondary_semester.xml.flat",

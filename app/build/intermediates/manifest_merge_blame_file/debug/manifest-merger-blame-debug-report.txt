@@ -15,7 +15,7 @@
 11-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:5:22-63
 12
 13    <application
-13-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:7:5-26:19
+13-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:7:5-30:19
 14        android:allowBackup="true"
 14-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -59,49 +59,56 @@
 33            </intent-filter>
 34        </activity>
 35
-36        <service
-36-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
-37            android:name="androidx.room.MultiInstanceInvalidationService"
-37-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
-38            android:directBootAware="true"
-38-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
-39            android:exported="false" />
-39-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-43            android:authorities="com.sortname.sorteio.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-51        </provider>
-52
-53        <uses-library
-53-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:25:9-27:40
-54            android:name="androidx.window.extensions"
-54-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:26:13-54
-55            android:required="false" />
-55-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:27:13-37
-56        <uses-library
-56-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:28:9-30:40
-57            android:name="androidx.window.sidecar"
-57-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:29:13-51
-58            android:required="false" />
-58-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:30:13-37
-59    </application>
-60
-61</manifest>
+36        <meta-data
+36-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:27:9-29:57
+37            android:name="preloaded_fonts"
+37-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:28:13-43
+38            android:resource="@array/preloaded_fonts" />
+38-->C:\Users\raque\Desktop\myProjects\Sorteio\app\src\main\AndroidManifest.xml:29:13-54
+39
+40        <service
+40-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+41            android:name="androidx.room.MultiInstanceInvalidationService"
+41-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+42            android:directBootAware="true"
+42-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.4.2] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\3b5eb9c4da27f105972a59a7d6007f38\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.sortname.sorteio.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\b8bee80b873f2845020c094d78908dd4\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\07e953f5e31edeb519550c0d32dec9da\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56
+57        <uses-library
+57-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:25:9-27:40
+58            android:name="androidx.window.extensions"
+58-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:26:13-54
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:27:13-37
+60        <uses-library
+60-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:28:9-30:40
+61            android:name="androidx.window.sidecar"
+61-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:29:13-51
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0] C:\Users\raque\.gradle\caches\transforms-2\files-2.1\cc2b81b84fba2fcbceae5de3f4a5b5e3\window-1.0.0\AndroidManifest.xml:30:13-37
+63    </application>
+64
+65</manifest>
