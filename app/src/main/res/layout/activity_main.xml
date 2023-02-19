@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background_gradiente"
     tools:context=".ui.MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -13,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        app:lottie_fileName="purple-presents.json"
+        app:lottie_fileName="present.json"
         app:lottie_autoPlay="true"
         app:lottie_loop="true" />
 
