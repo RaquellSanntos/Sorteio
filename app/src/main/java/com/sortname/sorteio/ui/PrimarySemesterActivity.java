@@ -26,18 +26,18 @@ public class PrimarySemesterActivity extends AppCompatActivity {
         String[] nomes = {
                 "CAIO BRASIL GOMES",
                 "DENIS FARIAS RAMOS",
-                "GUILHERME DE ALMEIDA OBANDO",
+//                "GUILHERME DE ALMEIDA OBANDO",
                 "HEWERTON BRITO ASCENCAO",
                 "Hoelito Natividade de Lima",
                 "Jessica Mayumi de Araújo Ikuno ",
                 "JONATHAN SILVA SANTOS",
-                "Leonardo Costa Rodrigues",
+//                "Leonardo Costa Rodrigues",
                 "MATEUS SANTOS SOUZA",
                 "MAYR DI FRANCO NAJAR AROUCHAR",
                 "NAELEM SILVA DE SOUZA",
                 "ROGER MILLER DA SILVA DOS SANTOS",
                 "SARAH CRISTINNY OLIVEIRA LOPES",
-                "VICTOR SAULO LITAIFF PEREIRA",
+//                "VICTOR SAULO LITAIFF PEREIRA",
 //                "VITOR ANDES DOS SANTOS"
         };
         int sorteado = new Random().nextInt(nomes.length);
