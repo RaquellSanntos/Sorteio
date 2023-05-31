@@ -1,11 +1,10 @@
 package com.sortname.sorteio.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.sortname.sorteio.R;
 
@@ -23,10 +22,7 @@ public class SecondarySemesterActivity extends AppCompatActivity {
     }
     public void ganhadorSecundary() {
         String[] nomes = {
-                "JOÃO VITOR BARROS DA SIVA",
-                "JOSUÉ DOS SANTOS CALDAS",
-                "LEONARDO ABNER RIBEIRO",
-//                "MARIA EDUARDA SOUZA DOS SANTOS"
+                "ROBERTO PARENTE DA SILVA"
         };
         int sorteado = new Random().nextInt(nomes.length);
         TextView divulgarNome = findViewById(R.id.txtView);

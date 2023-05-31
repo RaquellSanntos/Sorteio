@@ -1,5 +1,4 @@
 package com.sortname.sorteio.ui;
-
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -21,24 +20,17 @@ public class PrimarySemesterActivity extends AppCompatActivity {
         btprimary = findViewById(R.id.bt_primary);
         btprimary.setOnClickListener(view -> ganhadorPrimary());
     }
-
     public void ganhadorPrimary() {
         String[] nomes = {
-                "CAIO BRASIL GOMES",
                 "DENIS FARIAS RAMOS",
-//                "GUILHERME DE ALMEIDA OBANDO",
-                "HEWERTON BRITO ASCENCAO",
-                "Hoelito Natividade de Lima",
+//                "GUILHERME DE ALMEIDA OBANDO",(2meses suspenso temporário)
+//                "HEWERTON BRITO ASCENCAO", (2suspensão)
                 "Jessica Mayumi de Araújo Ikuno ",
                 "JONATHAN SILVA SANTOS",
-//                "Leonardo Costa Rodrigues",
-                "MATEUS SANTOS SOUZA",
-                "MAYR DI FRANCO NAJAR AROUCHAR",
                 "NAELEM SILVA DE SOUZA",
                 "ROGER MILLER DA SILVA DOS SANTOS",
                 "SARAH CRISTINNY OLIVEIRA LOPES",
-//                "VICTOR SAULO LITAIFF PEREIRA",
-//                "VITOR ANDES DOS SANTOS"
+                "VITOR ANDES DOS SANTOS"
         };
         int sorteado = new Random().nextInt(nomes.length);
         TextView divulgarNome = findViewById(R.id.txtView);
